@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="57" failures="0" name="multicart.cuck.test.runner.RunCuckTest" time="1.133" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/shakir/Downloads/PB3-E-multicart-BDD-PicoContainer-List-Validation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/shakir/Downloads/PB3-E-multicart-BDD-PicoContainer-List-Validation"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/h9/vgcld45d1h1fh4hkh6w9hpq40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/shakir/eclipse-workspace2/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4913946476545060176.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/shakir/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/shakir"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="shakir"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="/Users/shakir/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/shakir/Downloads/PB3-E-multicart-BDD-PicoContainer-List-Validation/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: User Sees individual account option" name="Given I open browser chrome" time="0.001"/>
+  <testcase classname="Scenario: User Sees individual account option" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: User Sees individual account option" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: User Sees individual account option" name="When I navigate to my Account page" time="0"/>
+  <testcase classname="Scenario: User Sees individual account option" name="Then I see options \&quot;My Orders\&quot; available" time="0"/>
+  <testcase classname="Scenario: User Sees individual account option" name="Then I see options \&quot;Profile\&quot; available" time="0"/>
+  <testcase classname="Scenario: User Sees individual account option" name="Then I see options \&quot;My Return Requests\&quot; available" time="0"/>
+  <testcase classname="Scenario: User Sees individual account option" name="Then I see options \&quot;Change Password\&quot; available" time="0"/>
+  <testcase classname="Scenario: User Sees individual account option" name="Scenario: User Sees individual account option" time="0.136"/>
+  <testcase classname="Scenario: User Sees all Account Options" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: User Sees all Account Options" name="And I land on multicart landing page" time="0.001"/>
+  <testcase classname="Scenario: User Sees all Account Options" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: User Sees all Account Options" name="When I navigate to my Account page" time="0"/>
+  <testcase classname="Scenario: User Sees all Account Options" name="Then I see all aviable options below" time="0"/>
+  <testcase classname="Scenario: User Sees all Account Options" name="Scenario: User Sees all Account Options" time="0.16"/>
+  <testcase classname="Scenario: Adding cupon to the cupon option" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Adding cupon to the cupon option" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Adding cupon to the cupon option" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: Adding cupon to the cupon option" name="When I select seller dashboard" time="0"/>
+  <testcase classname="Scenario: Adding cupon to the cupon option" name="Then I expect to land on seller page and click on Coupon Codes" time="0"/>
+  <testcase classname="Scenario: Adding cupon to the cupon option" name="And I should be able to add coppon" time="0"/>
+  <testcase classname="Scenario: Adding cupon to the cupon option" name="Scenario: Adding cupon to the cupon option" time="0.091"/>
+  <testcase classname="Scenario: Successfull login" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Successfull login" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Successfull login" name="When I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: Successfull login" name="Then I expect to seee profile Name as James Williams" time="0"/>
+  <testcase classname="Scenario: Successfull login" name="Scenario: Successfull login" time="0.156"/>
+  <testcase classname="Scenario: Login with blanc password" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Login with blanc password" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Login with blanc password" name="When I complete login with James No Password credentails" time="0"/>
+  <testcase classname="Scenario: Login with blanc password" name="Then I expect to seee no password error text" time="0"/>
+  <testcase classname="Scenario: Login with blanc password" name="Scenario: Login with blanc password" time="0.145"/>
+  <testcase classname="Scenario: Login with blanc id" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Login with blanc id" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Login with blanc id" name="When I complete login with James No Id credentails" time="0"/>
+  <testcase classname="Scenario: Login with blanc id" name="Then I expect to seee enter user Name error text" time="0"/>
+  <testcase classname="Scenario: Login with blanc id" name="Scenario: Login with blanc id" time="0.155"/>
+  <testcase classname="Scenario: User should see all dashboard page options" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: User should see all dashboard page options" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: User should see all dashboard page options" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: User should see all dashboard page options" name="When I select seller dashboard" time="0"/>
+  <testcase classname="Scenario: User should see all dashboard page options" name="Then I expect to land on seller page and click on \&quot;MyCatalog\&quot;" time="0"/>
+  <testcase classname="Scenario: User should see all dashboard page options" name="And I slould be able click on \&quot;Accessories\&quot;" time="0"/>
+  <testcase classname="Scenario: User should see all dashboard page options" name="And I should be able to List items" time="0.009">
+    <error message="invalid selector: Unable to locate an element with the xpath expression //*[@id=&apos;image_big[] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=&apos;image_big[]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.92)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Mds-MBP-5&apos;, ip: &apos;2604:2000:1201:42ce:c4cc:1059:5b1a:88cc%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/h9/vgcld45d1h1...}, goog:chromeOptions: {debuggerAddress: localhost:62064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e2de0454ac2e1a6627c4cef5e9984ca1
+*** Element info: {Using=xpath, value=//*[@id=&apos;image_big[]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=&apos;image_big[] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=&apos;image_big[]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.92)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Mds-MBP-5&apos;, ip: &apos;2604:2000:1201:42ce:c4cc:1059:5b1a:88cc%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/h9/vgcld45d1h1...}, goog:chromeOptions: {debuggerAddress: localhost:62064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e2de0454ac2e1a6627c4cef5e9984ca1
+*** Element info: {Using=xpath, value=//*[@id=&apos;image_big[]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at multicard.pages.object.model.MasterPage.getWebElementBy(MasterPage.java:96)
+	at multicard.pages.object.model.SellerDashboardPage.creatList(SellerDashboardPage.java:73)
+	at multicard.steps.defination.MyCatalogSteps.i_should_be_able_to_List_items(MyCatalogSteps.java:45)
+	at ✽.And I should be able to List items(multicart_user_mycatalog.feature:14)
+</error>
+    <system-out>#### I should be able to List items ######
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: User should see all dashboard page options" name="Scenario: User should see all dashboard page options" time="0.01">
+    <error message="invalid selector: Unable to locate an element with the xpath expression //*[@id=&apos;image_big[] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=&apos;image_big[]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.92)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Mds-MBP-5&apos;, ip: &apos;2604:2000:1201:42ce:c4cc:1059:5b1a:88cc%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/h9/vgcld45d1h1...}, goog:chromeOptions: {debuggerAddress: localhost:62064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e2de0454ac2e1a6627c4cef5e9984ca1
+*** Element info: {Using=xpath, value=//*[@id=&apos;image_big[]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=&apos;image_big[] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=&apos;image_big[]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.92)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Mds-MBP-5&apos;, ip: &apos;2604:2000:1201:42ce:c4cc:1059:5b1a:88cc%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/h9/vgcld45d1h1...}, goog:chromeOptions: {debuggerAddress: localhost:62064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e2de0454ac2e1a6627c4cef5e9984ca1
+*** Element info: {Using=xpath, value=//*[@id=&apos;image_big[]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at multicard.pages.object.model.MasterPage.getWebElementBy(MasterPage.java:96)
+	at multicard.pages.object.model.SellerDashboardPage.creatList(SellerDashboardPage.java:73)
+	at multicard.steps.defination.MyCatalogSteps.i_should_be_able_to_List_items(MyCatalogSteps.java:45)
+	at ✽.And I should be able to List items(multicart_user_mycatalog.feature:14)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Order Page Header Check" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Order Page Header Check" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Order Page Header Check" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: Order Page Header Check" name="When I navigate to order page" time="0"/>
+  <testcase classname="Scenario: Order Page Header Check" name="Then I expect Order page header is availablee" time="0"/>
+  <testcase classname="Scenario: Order Page Header Check" name="Scenario: Order Page Header Check" time="0.152"/>
+  <testcase classname="Scenario: Order History Table Aviable" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Order History Table Aviable" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Order History Table Aviable" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: Order History Table Aviable" name="When I navigate to order page" time="0"/>
+  <testcase classname="Scenario: Order History Table Aviable" name="Then I expect Order History Table Avaiable" time="0"/>
+  <testcase classname="Scenario: Order History Table Aviable" name="Scenario: Order History Table Aviable" time="0.117"/>
+</testsuite>
