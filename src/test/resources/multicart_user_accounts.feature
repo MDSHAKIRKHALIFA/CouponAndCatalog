@@ -7,14 +7,13 @@ Feature: User My Account Activities
     And I land on multicart landing page
     And I complete login with James valid credentails
 
-  Scenario: User Sees individual account option
-    When I navigate to my Account page
-    Then I see options "My Orders" available
-    Then I see options "Profile" available
-    Then I see options "My Return Requests" available
-    Then I see options "Change Password" available
+  #Scenario: User Sees individual account option
+    #When I navigate to my Account page
+    #Then I see options "My Orders" available
+    #Then I see options "Profile" available
+    #Then I see options "My Return Requests" available
+    #Then I see options "Change Password" available
 
-  @WIP
   Scenario: User Sees all Account Options
     When I navigate to my Account page
     Then I see all aviable options below
